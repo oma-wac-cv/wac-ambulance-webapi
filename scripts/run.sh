@@ -26,6 +26,9 @@ case $command in
         go run "${ProjectRoot}/cmd/ambulance-api-service"
         mongo down
         ;;
+    "test")
+        go test -v "${ProjectRoot}/..."
+        ;;
     "mongo")
       mongo up
       ;;

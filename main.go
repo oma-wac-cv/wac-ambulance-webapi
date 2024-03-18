@@ -13,10 +13,7 @@ package main
 import (
 	"log"
 
-	// WARNING!
-	// Pass --git-repo-id and --git-user-id properties when generating the code
-	//
-	sw "github.com/GIT_USER_ID/GIT_REPO_ID/internal/ambulance_wl"
+	sw "github.com/oma-wac-cv/wac-ambulance-webapi/internal/ambulance_wl"
 )
 
 func main() {
