@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout repo
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Get Go version from go.mod
       id: get_go_version
